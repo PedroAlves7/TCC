@@ -1,4 +1,4 @@
-The thesis proposes a development of a diferential robot and a way to evaluate and compare mapping accuracy SLAM algorithms.
+# The thesis proposes a development of a diferential robot and a way to evaluate and compare mapping accuracy SLAM algorithms.
 
 # Link list
 
