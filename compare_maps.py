@@ -77,8 +77,8 @@ def test_match(map_name, image_name, tolerance, black_threshold):
 
     print('Number of iterations:', iterations)
 
-    plt.plot(points_transformed[:, 0], points_transformed[:, 1], 'bo')
     plt.plot(points_model[:, 0], points_model[:, 1], 'ro')
+    plt.plot(points_transformed[:, 0], points_transformed[:, 1], 'bo')
     plt.axis('equal')
     plt.show()
 
@@ -99,5 +99,6 @@ if __name__ == "__main__":
 
     # Linha alterada: de 'args, _ = parser.parse_known_args()' para:
     args = parser.parse_args()
+
 
     test_match(args.map, args.image, args.tolerance, args.threshold)
